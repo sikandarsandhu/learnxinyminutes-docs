@@ -33,7 +33,7 @@ Hauptmerkmal von Elm sind die ausführlichen und gut erklärten Fehlermeldungen.
 -- Exponenten
 5 ^ 2 -- 25
 
--- Boolsche Werte
+-- Boolesche Werte
 not True -- False
 not False -- True
 1 == 1 -- True
@@ -189,7 +189,7 @@ listLength aList =
 -- Klammern bietet die Möglichkeit der Bevorrangung.
 cos (degrees 30) ^ 2 + sin (degrees 30) ^ 2 -- 1
 -- Als erstes wird die Funktion "degrees" mit dem Wert 30 aufgerufen.
--- Danach wird das Ergenis davon den Funktionen "cos", bzw. "sin" übergeben.
+-- Danach wird das Ergebnis davon den Funktionen "cos", bzw. "sin" übergeben.
 -- Dann wird das Ergebnis davon mit 2 quadriert und als letztes werden diese
 -- beiden Werte dann addiert.
 
@@ -274,7 +274,7 @@ otherOrigin : Point3D
 otherOrigin =
   Point3D 0 0 0
 
--- Aber es ist immernoch der selbe Typ, da es nur ein Alias ist!
+-- Aber es ist immer noch derselbe Typ, da es nur ein Alias ist!
 origin == otherOrigin -- True
 
 -- Neben den Records gibt es auch noch so genannte Summentypen.
